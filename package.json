@@ -1,0 +1,28 @@
+{
+  "name": "photo-lister",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fast batch product-photo lister for Facebook, Chợ Tốt and VuaTot — review photos, set names and prices, then copy clean photos and captions from an in-app post list. Excel export optional.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/unit.test.js test/xlsx.test.js",
+    "test:e2e": "node test/e2e.mjs",
+    "samples": "python3 tools/make_samples.py"
+  },
+  "keywords": [
+    "product-photos",
+    "excel",
+    "vietnam",
+    "marketplace",
+    "chotot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
