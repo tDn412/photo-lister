@@ -2,6 +2,8 @@
 
 A fast, local-first batch lister for preparing product photos for **Facebook Marketplace, Chợ Tốt, VuaTot** and similar marketplaces. Load a folder of photos, review them one by one with big previews, let optional AI fill in a name and a sensible Vietnamese second-hand price, polish the images, then copy clean photos and captions from the in-app **post list**. Excel export is still there when you need a spreadsheet.
 
+**Live app:** https://tdn412.github.io/photo-lister/ — works in Chrome, Edge and Safari on desktop and mobile.
+
 ![Post list](screenshots/10-post-list.png)
 
 ## Why it is built this way
